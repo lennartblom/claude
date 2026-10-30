@@ -80,6 +80,6 @@ Issues and pull requests are welcome, especially confirmations (or fixes) for th
 
 ## License
 
-Add a license of your choice here (for example MIT) before publishing.
+MIT License
 
 Garmin and Garmin Connect are trademarks of Garmin Ltd. or its subsidiaries.
