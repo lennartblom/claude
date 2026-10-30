@@ -86,10 +86,10 @@ The full field reference and the Garmin ID mapping are in [`references/spec-form
 | Feature | Status |
 |---|---|
 | Simple steps with a distance end, with or without a pace target | Confirmed working |
-| `repeat` groups | Unconfirmed |
+| `repeat` groups | Confirmed working |
 | Time and lap-button step ends | Unconfirmed |
-| Heart-rate targets | Unconfirmed |
-| Scheduling via `workout-service/schedule/{id}` | Unconfirmed |
+| Heart-rate targets | Confirmed working |
+| Scheduling via `workout-service/schedule/{id}` | Confirmed working |
 
 The unconfirmed parts follow the structure used by community libraries for the private Garmin API. If one of them fails for you, the console shows the HTTP status and response for every call. Opening an issue with that output (it contains no cookies or tokens) helps a lot. As a fallback for repeat blocks, write the steps out individually.
 
